@@ -3,6 +3,7 @@ import ImageSection from "./Components/ImageSection";
 import Button from "./Components/Button";
 import Title from "./Components/Title";
 import ImageNumber from "./Components/ImageNumber";
+import InputNumber from "./Components/InputNumber";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <Title />
+      <InputNumber setNumber={setImage} />
       <ImageSection image={image} />
       {booleanSwitch && <ImageNumber numbImage={image} />}
       <Button setImage={onClickRamdomImg} />
