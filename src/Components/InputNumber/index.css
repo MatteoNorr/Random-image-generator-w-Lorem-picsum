@@ -1,0 +1,15 @@
+.InputNumber-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3% 5% 3%;
+  gap: 10px;
+}
+
+.InputNumber {
+  width: 30%;
+  height: 30px;
+  border: solid rgba(0, 0, 0, 0.708) 1px;
+  outline: none;
+  border-radius: 10px;
+}
