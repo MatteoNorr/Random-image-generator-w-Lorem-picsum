@@ -1,0 +1,9 @@
+.ImageSection {
+  display: flex;
+  justify-content: center;
+}
+
+.ImageSection__img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(99, 99, 99, 0.557);
+}
