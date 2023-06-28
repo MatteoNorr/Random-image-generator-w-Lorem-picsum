@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ImageSection from "./Components/ImageSection";
 import Button from "./Components/Button";
+import Title from "./Components/Title";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <Title />
       <ImageSection image={image} />
       <Button setImage={onClickRamdomImg} />
     </>
